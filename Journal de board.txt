@@ -1,0 +1,117 @@
+Projet pour FRM : RoR - ITActionMaanger
+---------------------------------------
+
+Dépôt : https://github.com/jefschaerz/CAS-DAR_RoR-PCActionsManager.git
+
+Lien Gitpod : 	
+	ITActionMaanger :	https://gitpod#github.com/jefschaerz/CAS-DAR_RoR-PCActionsManager.git
+						https://d4879475-a3d4-48ba-bc92-a4d914d8311c.ws-eu03.gitpod.io/#/workspace/CAS-DAR_RoR-PCActionsManager
+						
+	TODOMVC :			https://cafa5bd4-ad84-4071-b0bf-258f850d7e66.ws-eu03.gitpod.io/#/workspace/todomvc-rails-2020
+
+******************************
+Description de l'application :
+******************************
+Voir fichier Readme.md :  https://github.com/jefschaerz/CAS-DAR_RoR-PCActionsManager
+
+******************************
+BackLog :
+******************************
+---- TODO ------
+
+Todo 0 :	Mockup ou schéma des pages/possibilités
+				Use cases (
+				
+----DONE ------				
+DONE 0 :	Création sur Gitpod de l'environnement
+DONE 0 : 	Création d'un repository sous Github avec le nom. Mettre dans le fichier Docs
+				- Readme.md
+				- Cloner en local et tester update par gitpod
+DONE 0 :	Définir les limites du projets
+				- fournir au Prof une specificaion (use cases)
+				
+******************************
+Liens utiles
+******************************
+- Scaffold : Voir vidéo J1 - 1h18
+		
+
+******************************
+Actions réalisées
+******************************
+
+02.02.2021 - 08h00 - 11h30 :
+----------------------------
+
+- Mise en place de l'environnement Gitpod pour application RoR
+	(revoir vidéo avec prof - J1 1h17)
+	Lancement de gitpodio#
+	Utilisation du guidance et start project :
+	- Create gitpod.yaml (npm start)
+	- Update gitpod.Docker avec Defautlt + MySQL
+	- Update readme
+	- Push to branch and start commit
+	
+- Installation des outils Rails selon  :
+		Configuration selon
+		- https://www.gitpod.io/docs/configuration/
+		- https://guides.rubyonrails.org/getting_started.html
+		Les softs sont installé :
+			gitpod /workspace/CAS-DAR_RoR-PCActionsManager $  ruby --version
+			ruby 2.6.6p146 (2020-03-31 revision 67876) [x86_64-linux]
+			gitpod /workspace/CAS-DAR_RoR-PCActionsManager $ sqlite3 --version
+			3.31.1 2020-01-27 19:55:54 3bfa9cc97da10598521b342961df8f5f68c7388fa117345eeb516eaa837balt1
+			gitpod /workspace/CAS-DAR_RoR-PCActionsManager $ sqlite3 --version
+			3.31.1 2020-01-27 19:55:54 3bfa9cc97da10598521b342961df8f5f68c7388fa117345eeb516eaa837balt1
+			gitpod /workspace/CAS-DAR_RoR-PCActionsManager $ node --version
+			v14.15.4
+			gitpod /workspace/CAS-DAR_RoR-PCActionsManager $ yarn --version
+			1.22.10
+		Installation de rails : gem install rails.
+		Creation de l'application par : rails new ITActionManager
+			Cela crée la structure et installe les dépendances
+			Installation de bunlder avec :
+				gem install bundler:2.1.4
+			Install toutes les dépendances (bundle contrôler les dépendances par les GEM)
+				bundle install
+		Démarrage de l'application par 
+			cd ITActionManager
+			bin/rails server :OK
+		Blocked Host dans Browser
+			-- ajout config.hosts << /.*\..*\.gitpod\.io/ dans config/environnement/developpemtn.rb (comme Todomvc)
+		
+		--> Application fonctionne correctement.		
+
+01.02.2021 - 21h30 - 22h30 :
+----------------------------
+
+- Création du dépo sur Github
+- Clone du projet en local : OK
+- First commit
+- Création sur Gitpod d'une nouvelle application RoR avec ce github
+
+******************************	
+Objectif --> Voir info mini-projet dans CyberLearn
+******************************
+https://cyberlearn.hes-so.ch/mod/page/view.php?id=1392374
+
+Périmètre technologique/fonctionnel
+	• Une base de données avec au moins 2 tables
+		- Users
+		- Roles
+		- Equipement
+		- Incidennts
+	• Un Framework au choix (parmi les 3 enseignés)
+		- Ruby on rails
+	• Des vues avec au moins ces fonctionnalités :
+		• Authentification/gestion d’utilisateurs
+		• CRUD par table
+	• 1 page de recherche  simple/avancé
+Equipe
+	• 1 ou 2 (à choix)
+Calendrier
+	• 28.01.2021 – les étudiants annoncent leurs projets (équipe,  scope de l’application, Framework à utiliser)
+	• 28.01.2021 – Nabil informe les collègues sur les choix des étudiants. Chaque enseignant suit les projets faits dans le framework qu’il a enseiggné
+	• 15.03.2021 – Rendu du projet. Chaque enseignant s’organise avec ses étudiants pour la forme de rendu (dropbox, githUb, etc)
+Fin mars 2021 : enseignants évaluent les projets
+	
