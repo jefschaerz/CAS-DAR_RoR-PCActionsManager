@@ -1,10 +1,10 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/jefschaerz/CAS-DAR_RoR-PCActionsManager)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/jefschaerz/CAS-DAR_RoR-ITActionsManager)
 
-# CAS-DAR_RoR-PCActionsManager
+# CAS-DAR_RoR-ITActionManager
 Application écrite en Ruby on Rails pour gérer les interventions réalisées sur des équipements informatiques.
 
 <a name="top"></a>
-Ce repository contient les sources du projet "PCActionManager" réalisé dans le cadre du CAS-DAR RoR / 2021.
+Ce repository contient les sources du projet "ITActionManager" réalisé dans le cadre du CAS-DAR RoR / 2021.
 
 - [Description de l'application](#description-application)
 - [Utilisation de l'application](#utilisation-application)
@@ -14,7 +14,7 @@ Ce repository contient les sources du projet "PCActionManager" réalisé dans le
 
 <a name="description-application"></a>
 # Description de l'application
-L'application "PCActionManager" permet à des utilisateurs de type "Admin" ou "User" de saisir des informations sur les actions réalisées 
+L'application "ITActionManager" permet à des utilisateurs de type "Admin" ou "User" de saisir des informations sur les actions réalisées 
 sur des équipements informatiques de plusieurs type (PC, serveurs ou imprimantes).
 C'est en fait un journal des actions de suivi.
 
